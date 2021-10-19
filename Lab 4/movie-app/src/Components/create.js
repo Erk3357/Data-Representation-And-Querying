@@ -18,6 +18,10 @@ class Create extends Component {
     handleSubmit(event) {
         console.log(this.state.Title, this.state.Year, this.state.Poster);
         event.preventDefault();
+        this.setState = ({Title:"",
+                      Year:"",
+                      Poster:""
+        });
         
     }
 
