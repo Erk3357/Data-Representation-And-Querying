@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# [Final Project] Open Design Library Portal 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## About & Scenario:
+This is a final project from Data Representation and Querying Module.
+The purpouse was to create a Portal for monitoring and modifying an online library of free books targeted towards Digital Designers.
+User of the Portal can Create books, Read database content, Update information withing DB and Delete content giving full CRUD DB mangament.
 
-### `npm start`
+The portal runs on client side with With Remote Database runing MongoDB.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Setting Up the Project:
+In order to use the project following items are requred:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> Note: `npm intall` files are requred to install within `odl-portal` folder using Command Prompt or CLI Package manager of choice in order to run
 
-### `npm run build`
+> Note: `React Router` must be at version 5.2.0 as V6 is not compatible with the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Files | How to Download: |
+| ------ | ------ |
+| Project Files | Download this Repo |
+| [React][React_URL] | npm install |
+| [React Router Dom][RRD_URL] | npm install react-router-dom@5.2.0 |
+| [React Bootstrap][RB_URL] | npm install react-bootstrap |
+| [Axios][Axios_URL] | npm install Axios |
+| [Express][EXP_URL] | npm install Express |
+| [Cors][Corse_URL] | npm install Cors |
+| [Mongoose][MDB_URL] | npm install Mongoose |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[React_URL]: <https://reactjs.org/>
+[RRD_URL]: <https://v5.reactrouter.com/>
+[RB_URL]: <https://react-bootstrap.github.io/>
+[Axios_URL]: <https://axios-http.com/>
+[EXP_URL]: <https://www.react.express/>
+[Corse_URL]: <https://github.com/expressjs/cors#readme>
+[MDB_URL]: <https://mongoosejs.com/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Starting Project:
+After installing the proejct, In order to run it 2 command prompts will be needed 
+one Front-End and one Back-End.
 
-### `npm run eject`
+Start with Front-End by entering following command into the promt within odl-portal folder
+```sh
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Now start Back-End by entering following command into the promt within BackEnd folder
+```sh
+node server.js
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+the project should now run on Localhost:3000.
+Enjoy.
